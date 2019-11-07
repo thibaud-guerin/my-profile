@@ -1,0 +1,130 @@
+body{
+	font-family: 'Arvo', serif;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+p{
+	font-size: 12px;
+	word-spacing: 6px;
+	text-align: justify;
+}
+h1{
+	color: #FAF7F7;
+	text-shadow: 0 0 2px #000000;
+}
+h2{
+	color: #595758;
+	text-shadow: 0 0 2px #FFFFFF;
+}
+h3{
+	color: #595758;
+}
+h4{
+	color: #595758;
+	display: inline;
+}
+h5{
+	color: #8EB8C4;	
+	display: inline;
+
+}
+a{
+	text-decoration: none;
+	color: #595758 ;
+}
+.banner{
+	background-image: url(images/banner.png);
+	padding: 60px;
+	background-size: cover;	
+}
+.button{
+	text-decoration: none;
+	color:white;
+	background-color: #8EB8C4;
+	margin: 10px;
+	padding: 8px;
+	border-radius: 7px;
+}
+.button:hover{
+	color:#8EB8C4;
+	text-decoration: none;
+	background-color:white;
+}
+#profile-picture{
+	border-radius: 50%;
+	width: 10%;
+	height: 10%;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-design{
+	background: white;
+	padding: 40px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	text-align: left;
+}
+.contact-form{
+	margin-top: 40px;
+}
+
+.logo{
+	max-width: 60px;
+	max-height: 600px;
+	margin-right:20px;
+}
+.logo , h4 {
+        vertical-align: middle;
+        display: inline-block;
+    }
+.elements {
+	display: flex;
+	justify-content: space-around; 
+	text-align: center; 
+}
+.sub-elements{
+	display: flex;
+	flex-direction: column;
+}
+.assets{
+	max-height: 120px;
+}
+.footer{
+	background-color: #8EB8C4;
+	background-size: cover;
+	display:flex;
+	justify-content: space-around;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.footer-block{
+	text-align: left;
+	line-height: 20px;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+.social-icons .fa {
+	font-size: 1.8em;
+}
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+}
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #595758;
+}
+
